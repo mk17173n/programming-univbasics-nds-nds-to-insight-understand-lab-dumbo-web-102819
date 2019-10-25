@@ -12,6 +12,6 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  directors_database[0][:movies].map { |movie| pp movie[:title]}
+  directors_database[0][:movies].map { |movie| print movie[:title]}
   
 end
